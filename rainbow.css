@@ -1,0 +1,54 @@
+.rainbow div{overflow:hidden}
+*{box-sizing:border-box;
+margin:0px;
+padding:0px;}
+body{background:hsl(42, 80%, 100%);}
+.rainbow{
+height:200px;
+overflow:hidden;}
+.rainbow>div{
+  width:400px;height:400px;
+  background:hsl(0, 90%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div{
+ height:380px;
+  margin:10px;
+  background:hsl(42, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div{
+  height:360px;
+  margin:10px;
+  background:hsl(60, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div>div{
+  margin:10px;
+  background:hsl(95, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div>div>div{
+  height:320px;
+  margin:10px;
+  background:hsl(180, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div>div>div>div{
+  height:300px;
+  margin:10px;
+  background:hsl(210, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div>div>div>div>div{
+  height:280px;
+  margin:10px;
+  background:hsl(280, 80%, 50%);
+  border-radius:50%;
+}
+.rainbow>div>div>div>div>div>div>div>div{
+  height:260px;
+  margin:10px;
+  background:hsl(280, 80%, 100%);
+  border-radius:50%;
+}
